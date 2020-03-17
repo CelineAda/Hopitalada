@@ -1,0 +1,152 @@
+	/* http://meyerweb.com/eric/tools/css/reset/
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	/*--------------fin reset--------------*/
+	body{
+		background-color:
+	}
+
+	.navigation-barre{
+		position:fixed;
+		width: 100%;
+		top:0px;
+	}
+
+	.entete{
+		padding-top: 100px;
+		margin-bottom: 100px;
+		background-color: #274060;
+		color: white;
+		height:300px;
+		}
+
+
+	h1{
+		margin-left: 350px;
+		font-size: 100px;
+		text-shadow: 2px 4px 10px rgba(65,137,206,0.86), 2px 4px 10px rgba(65,137,206,0.86);
+	}
+
+	h2{
+		font-size: 40px;
+		margin-bottom: 20px;
+		color:#71b340;
+		font-weight:bold;
+	}
+
+	h3{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.slogan{
+		font-size: 25px;
+		font-style: italic;
+		margin-left: 300px;
+	}
+
+	.card-header{
+		background-color: #71b340;
+	}
+
+	.container{
+		display: flex;
+		flex-direction: row;
+		margin-top: 50px;
+	}
+
+	.form{
+		width: 400px;
+		margin-left: 100px;
+		margin-top: 50px;
+	}
+
+	.quiestqui{
+		margin-left: 100px;
+		margin-top: 70px;
+	}
+	.whoswho{
+		margin-bottom: 150px;
+		display: flex;
+		justify-content: space-around;
+		width: 800px;
+		margin-left: 58px;
+	}
+
+	.rounded-circle{
+		width:50px;
+		height:50px;
+	}
+
+	.photodirecteur{
+		margin-top: 15px;
+	}
+
+	.dermato{
+		width: 550px;
+		height:100px;
+		border:solid;
+		border-radius: 31px 31px 31px 31px;
+		-moz-border-radius: 31px 31px 31px 31px;
+		-webkit-border-radius: 31px 31px 31px 31px;
+		border: 3px solid #f2edf2;
+		background-color: #71b340;
+		display: flex;
+		margin-left: 350px;
+		margin-top: -150px;
+		color: white;
+		justify-content: center;
+		padding-top: 20px;
+		font-size: 50px;
+	}
+
+	footer{
+		background-color: #e6e6e6;
+		height: 80px;
+		margin-top: 80px;
+	}
